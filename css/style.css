@@ -1,0 +1,105 @@
+body{
+  background-color: #F7F7F7;
+}
+
+.top {
+  height: 20px;
+  background-color: red;
+}
+
+.imageslider {
+  height: 100vh;
+}
+
+.carousel-item {
+  position: relative;
+}
+
+.carousel-item > img {
+  height: 100vh !important;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.carousel-caption {
+  top: 14%;
+  left: 1%;
+  right: 70%;
+}
+
+.mynav {
+  height: 56px;
+  width: 98%;
+  position: fixed;
+  top: 30px;
+  left: 1px;
+  right: 1px;
+  z-index: 20;
+  border-radius: 12px;
+}
+.hero-head {
+  font-size: 56px;
+}
+.collapseP {
+  height: 56px !important;
+}
+.bar {
+  width: 32px;
+  height: 32px;
+  background-color: #e8e8e8;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  cursor: pointer;
+  position: relative;
+  /* z-index: 10000; */
+  border: none;
+  transition: 0.25s linear;
+}
+.description-container{
+  height: 323px;
+}
+
+/* Scooter Card */
+
+.scooter-card {
+  /* height: 100vh; */
+  height: auto;
+}
+.scooterCover{
+  object-fit: cover !important;
+}
+
+.map{
+  /* height: auto; */
+  height: 590px;
+  /* background-color: red !important; */
+
+}
+.map-img{
+  width:100% !important;
+  /* width: 100%; */
+  object-fit: cover;
+}
+
+
+/* OwnerShip */
+.OwnerShip{
+  height: 70vh;
+  height: auto;
+  /* background-color: red; */
+}
+.OwnerShip-container{
+  height: 80%;
+  
+}
+.ow-card{
+  background-color: #171717 !important;
+}
+
+
+
+/* OwnerShip  Ends*/
