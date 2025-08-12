@@ -70,9 +70,20 @@ body{
   height: auto;
 }
 .scooterCover{
-  object-fit: cover !important;
+  height: 100%;
+  /* background-color: red; */
+}
+.scooterCover img{
+  object-fit: cover;
+  height: 100% ;
+  width: 100%;
 }
 
+
+/* Scooter card Ends */
+
+
+/* Map card start */
 .map{
   /* height: auto; */
   height: 590px;
@@ -82,8 +93,11 @@ body{
 .map-img{
   width:100% !important;
   /* width: 100%; */
+  height: 100% !important;
   object-fit: cover;
 }
+
+/* Map card Ends */
 
 
 /* OwnerShip */
@@ -103,3 +117,50 @@ body{
 
 
 /* OwnerShip  Ends*/
+
+
+/* Stories card */
+.stories-card{
+  height: auto;
+
+}
+.story-card{
+  border-radius: 16px !important;
+  /* background-color: red; */
+}
+.story-card>img{
+border-radius: 16px;
+object-fit: cover !important;
+}
+
+/* Stories card */
+
+/* Badge */
+.badge{
+  height: 50vh;
+  
+}
+
+
+/* Badge End */
+
+/* Accrodian section */
+.accident-section> .left{
+  /* width: 50% !important; */
+  /* height: 100%; */
+}
+
+
+
+/* Accrodian section */
+
+
+
+/* Footer */
+footer{
+  height: 140px;
+  overflow: hidden;
+}
+li{
+  list-style: none;
+}
