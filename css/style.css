@@ -161,4 +161,19 @@ footer{
 }
 li{
   list-style: none;
+  color: #7b7b7b;
+}
+li:hover{
+  cursor: pointer;
+}
+.indlogo:hover{
+  cursor: pointer;
+}
+.bottom-container{
+  font-size: 7px;
+  color: #7b7b7b !important;
+}
+
+.rg-top:hover{
+  cursor: pointer;
 }
