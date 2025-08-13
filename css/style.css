@@ -145,10 +145,7 @@ object-fit: cover !important;
 /* Badge End */
 
 /* Accrodian section */
-.accident-section> .left{
-  /* width: 50% !important; */
-  /* height: 100%; */
-}
+
 
 
 
@@ -158,7 +155,8 @@ object-fit: cover !important;
 
 /* Footer */
 footer{
-  height: 140px;
+  /* height: 140px; */
+  height: auto;
   overflow: hidden;
 }
 li{
